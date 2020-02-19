@@ -18,7 +18,7 @@ pub fn upload_image(data: Data) -> status::Accepted<String> {
                             "
                             {{
                                 \"status\": 1,
-                                \"url\": \"http://localhost:8000/{}.png\"
+                                \"url\": \"http://pls.dont.pet/{}.png\"
                             }}
                             "
                         ,&ms)

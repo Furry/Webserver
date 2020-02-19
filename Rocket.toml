@@ -1,0 +1,17 @@
+[production]
+workers = 8
+log = "critical"
+address = "10.0.0.112"
+port = 80
+
+[staging]
+workers = 8
+log = "critical"
+address = "10.0.0.112"
+port = 80
+
+[development]
+workers = 8
+log = "critical"
+address = "10.0.0.112"
+port = 80
