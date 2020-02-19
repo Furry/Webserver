@@ -5,10 +5,11 @@ mod routes;
 #[macro_use] extern crate rocket;
 
 use rocket_contrib::serve::StaticFiles;
+use rocket::response::Redirect;
 
 #[get("/")]
-fn entry() -> &'static str {
-    "Welcome"
+fn entry() -> Redirect {
+    return Redirect::moved("https://github.com/furry");
 }
 
 fn main() {
